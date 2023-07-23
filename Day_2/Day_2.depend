@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1690128224 source:d:\fastrack c\day_2\main.c
+	<assert.h>
+	<stdio.h>
+	"header.h"
+
+1690128224 d:\fastrack c\day_2\header.h
+
