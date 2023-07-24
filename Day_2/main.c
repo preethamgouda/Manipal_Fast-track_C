@@ -99,11 +99,16 @@ int main()
     scanf("%d", &choice);
     volume_of_shapes(choice);
 
+    //11.. An Electricity board charges the following rates for use of electricity.
+    //For the First 200 units : Rs 1 per unit
+    //For the next 100 units : Rs 1.5 per unit
+    //Beyond 300 units : Rs 2 Per unit.
+    //Write a C Program to read no of unit consumed and print out total charge
+    //amount
 
-
-
-
-
-
+    printf("\n\n 11. Program to read no of unit consumed and print out total charge amount \n");
+    printf("\n\tUnits Consumed                    : ");
+    scanf("%d",&units_consumed);
+    electricity_bill(units_consumed);
     return 0;
 }
