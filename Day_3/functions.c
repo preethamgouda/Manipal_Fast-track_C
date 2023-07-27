@@ -141,6 +141,14 @@ int generate_pattern(int rows)
     }
 }
 
+// 4. WAP to print the following sketch by taking in N as number of rows
+
+/*      *
+        * *
+        * * *
+        * * * *
+*/
+
 
 int generate_pattern1(int rows) {
     if (rows <= 0) {
@@ -157,7 +165,7 @@ int generate_pattern1(int rows) {
     return 1;
 }
 
-// 4. Write a C program, which will print two digit numbers whose sum of both digit is
+// 5. Write a C program, which will print two digit numbers whose sum of both digit is
 //    nine. e.g. 18,27......
 
 int two_digit_sum_equal_to_nine()
@@ -177,7 +185,7 @@ int two_digit_sum_equal_to_nine()
     return 1;
 }
 
-// 5. Write a recursive function for calculating power of a number. Take base number and exponent from user.
+// 6. Write a recursive function for calculating power of a number. Take base number and exponent from user.
 
 int power_using_recursion(int base,int exponent)
 {
@@ -201,7 +209,7 @@ int power_using_recursion(int base,int exponent)
     }
 }
 
-// 6. Write a recursive function for calculating factorial of a number.
+// 7. Write a recursive function for calculating factorial of a number.
 
 int factorial_of_number_using_recursion(int number)
 {
@@ -225,7 +233,7 @@ int factorial_of_number_using_recursion(int number)
     }
 }
 
-//7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ …
+//8. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ …
 
 int evaluate_function_using_recursion(int x)
 {
@@ -237,13 +245,13 @@ int evaluate_function_using_recursion(int x)
     return 0;
 }
 
-//8. Concatenate two integer values using macros
+//9. Concatenate two integer values using macros
 //Macro function defined in header file
 
-//9. Find square of a number using macros
+//10. Find square of a number using macros
 //Macro function defined in header file
 
-//10. Write a menu driven program to display the mathematical functions like square root, natural log, log10x, power(x,n), Cos(x). (use math.h)
+//11. Write a menu driven program to display the mathematical functions like square root, natural log, log10x, power(x,n), Cos(x). (use math.h)
 int mathematical_functions()
 {
     double base,exponent;
