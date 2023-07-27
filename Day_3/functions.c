@@ -158,7 +158,7 @@ int generate_pattern1(int rows) {
 }
 
 // 4. Write a C program, which will print two digit numbers whose sum of both digit is
-//    multiple of seven. e.g. 16,25,34......
+//    nine. e.g. 18,27......
 
 int two_digit_sum_equal_to_nine()
 {
@@ -225,7 +225,7 @@ int factorial_of_number_using_recursion(int number)
     }
 }
 
-//7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ …
+//7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ â€¦
 
 int evaluate_function_using_recursion(int x)
 {
