@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1690449629 source:d:\fastrack c\day_4-5\functions.c
+	"header.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1690449629 d:\fastrack c\day_4-5\header.h
+
