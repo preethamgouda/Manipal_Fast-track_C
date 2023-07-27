@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1690445531 source:d:\fastrack c\day_3\functions.c
+	"header.h"
+	<math.h>
+	<stdio.h>
+
+1690445017 d:\fastrack c\day_3\header.h
+
+1690445017 source:d:\fastrack c\day_3\main.c
+	<assert.h>
+	<stdio.h>
+	"header.h"
+
