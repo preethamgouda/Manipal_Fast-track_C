@@ -40,17 +40,19 @@ int main()
     assert(generate_pattern(3) == 1);
     assert(generate_pattern(-1) == INVALID);
 
-    printf("\n\n 3. WAP to print the following sketch by taking in N as number of rows\n\n");
+    //4. WAP to print the following sketch by taking in N as number of rows
+
+    printf("\n\n 4. WAP to print the following sketch by taking in N as number of rows\n\n");
     assert(generate_pattern1(3) == 1);
     assert(generate_pattern1(-1) == INVALID);
 
-    //4. Write a C program, which will print two digit numbers whose sum of both digit is
+    //5. Write a C program, which will print two digit numbers whose sum of both digit is
     //   is 9 e.g. 18,27......
 
     printf("\n\n 4. Write a C program, which will print two digit numbers whose sum of both digit \n    is nine e.g. 18,27......\n");
     assert(two_digit_sum_equal_to_nine() == 1);
 
-    //5. Write a recursive function for calculating power of a number. Take base number and exponent from user.
+    //6. Write a recursive function for calculating power of a number. Take base number and exponent from user.
 
 
     printf("\n\tEnter Base Number                        : ");
@@ -62,7 +64,7 @@ int main()
     assert(power_using_recursion(-2,5) == INVALID);
 
 
-    //6. Write a recursive function for calculating factorial of a number.
+    //7. Write a recursive function for calculating factorial of a number.
     printf("\n\n 6. Write a recursive function for calculating factorial of a number.\n");
     printf("\n\tNote : Tested using Assertion.\n");
     assert(factorial_of_number_using_recursion(5) == 120);
@@ -70,17 +72,17 @@ int main()
     assert(factorial_of_number_using_recursion(0) == 1);
     assert(factorial_of_number_using_recursion(-10) == INVALID);
 
-    //7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ …
-    printf("\n\n 7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ …\n");
+    //8. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ â€¦
+    printf("\n\n 7. Use recursive calls to evaluate F(x) = x + x3/3! + x5/5! + x7/7!+ â€¦\n");
 
 
-    //8. Concatenate two integer values using macros
+    //9. Concatenate two integer values using macros
     printf("\n\n 8. Concatenate two integer values using macros\n");
     printf("\n\tNote : Tested using Assertion.\n");
     assert(CONCATENATE_INTEGER(10,13) == 1013);
     assert(CONCATENATE_INTEGER(20,19) == 2019);
 
-    //9. Find square of a number using macros.
+    //10. Find square of a number using macros.
     printf("\n\n 9. Find square of a number using macros.\n");
     printf("\n\tNote : Tested using Assertion.\n");
     assert(SQUARE_USING_MACRO(5) == 25);
